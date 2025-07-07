@@ -162,7 +162,7 @@ export default function SerenaLanding() {
         <section
           className="relative bg-cover bg-center bg-no-repeat py-24"
           style={{
-            backgroundImage: `linear-gradient(to bottom, rgba(0,49,59,0.84) 0%, rgba(0,49,59,0.84) 100%), url('https://d335luupugsy2.cloudfront.net/cms/files/712823/1751049973/$vjyr6j5lm2')`,
+            backgroundImage: `url('https://d335luupugsy2.cloudfront.net/cms/files/712823/1750949973/$vjyr6j5lm2')`,
           }}
         >
           <div className="container mx-auto px-4 text-center">
