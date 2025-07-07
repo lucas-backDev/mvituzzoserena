@@ -83,11 +83,11 @@ export default function SerenaLanding() {
         },
         body: JSON.stringify({
           access_key: "83ed46be-27fe-4b59-950d-63cda05c00ca", // Substitua pela sua chave do Web3Forms
-          name: formData.name,
-          email: formData.email,
-          phone: formData.phone,
-          neighborhood: formData.neighborhood,
-          preferences: formData.preferences.join(", "),
+          Nome: formData.name,
+          Email: formData.email,
+          Telefone: formData.phone,
+          Bairro: formData.neighborhood,
+          "Preferência de metragem": formData.preferences.join(", "),
           subject: "Novo lead - Serena Landing Page",
         }),
       })
