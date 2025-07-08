@@ -82,7 +82,7 @@ export default function SerenaLanding() {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          access_key: "83ed46be-27fe-4b59-950d-63cda05c00ca", // Substitua pela sua chave do Web3Forms
+          access_key: "182f21e1-ec46-432e-826d-ed2e086f296b", // Substitua pela sua chave do Web3Forms
           Nome: formData.name,
           Email: formData.email,
           Telefone: formData.phone,
