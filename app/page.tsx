@@ -372,17 +372,30 @@ export default function SerenaLanding() {
             backgroundImage: `url('https://d335luupugsy2.cloudfront.net/cms/files/712823/1706192993/$f5z2kbktzdw')`,
           }}
         >
-          <div className="container mx-auto px-4 text-center">
-            <div className="mb-8">
-              <p className="text-black text-base font-normal mb-4">INCORPORAÇÃO</p>
-              <div className="max-w-[238px] mx-auto">
-                <Image
-                  src="https://d335luupugsy2.cloudfront.net/cms/files/712823/1741707586/$cp1cvniio3j"
-                  alt="Incorporation Logo"
-                  width={238}
-                  height={100}
-                  className="w-full h-auto"
-                />
+          <div className="container mx-auto px-6 md:px-4">
+            {/* Seções do Carlos Alberto e Partner - lado a lado sem fundo branco */}
+            <div className="max-w-6xl mx-auto mb-16">
+              <div className="grid md:grid-cols-2 gap-16 items-center">
+                {/* Seção esquerda - Carlos Alberto */}
+                <div className="flex flex-col items-center text-center space-y-4">
+                  <img
+                    src="/carlos-foto.png"
+                    alt="Carlos Alberto"
+                    className="w-48 h-48 rounded-full shadow-lg object-cover"
+                  />
+                  <img src="/carlos-alberto.png" alt="Carlos Alberto" className="h-8 w-auto max-w-xs" />
+                  <img src="/creci.png" alt="CRECI 176.642F" className="h-6 w-auto max-w-xs" />
+                </div>
+
+                {/* Seção direita - Partner e Logo */}
+                <div className="flex flex-col items-center text-center space-y-6 px-4">
+                  <img src="/partner.png" alt="Partner" className="h-7 w-auto max-w-xs" />
+                  <img
+                    src="/mvituzzo-logo-footer.png"
+                    alt="M Vituzzo Empreendimentos"
+                    className="h-32 w-auto max-w-full px-2"
+                  />
+                </div>
               </div>
             </div>
 
