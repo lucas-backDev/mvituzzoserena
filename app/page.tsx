@@ -399,20 +399,19 @@ export default function SerenaLanding() {
               </div>
             </div>
 
-            <div className="space-y-4 text-black text-sm">
-              <p>
+            {/* Textos legais */}
+            <div className="text-center space-y-6 px-4">
+              <p className="text-black text-sm max-w-3xl mx-auto font-medium px-2">
                 Imagens ilustrativas. Material preliminar de pesquisa de mercado sujeito a alteração sem aviso prévio.
               </p>
 
-              <div>
-                <p>
-                  <strong>Autor do projeto:</strong>
-                </p>
+              <div className="text-black text-sm space-y-1 px-2">
+                <p className="font-bold">Autor do projeto:</p>
                 <p>LUIS GUSTAVO SABAINI DE SOUZA</p>
                 <p>N° de registro: 000A547964</p>
                 <p>Inscrição Municipal: 297402</p>
                 <p>CNPJ: 55.298.423/0001-21</p>
-                <p>CEP 87014-180</p>
+                <p>CEP: 87014-180</p>
               </div>
             </div>
           </div>
