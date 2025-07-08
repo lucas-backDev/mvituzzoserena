@@ -420,7 +420,7 @@ export default function SerenaLanding() {
 
       {/* WhatsApp Floating Button */}
       <a
-        href="https://wa.me/5512996508155?text=Olá! Tenho interesse em um empreendimento M Vituzzo. Gostaria de mais informações."
+        href="https://wa.me/5512997605200?text=Olá! Tenho interesse em um empreendimento M Vituzzo. Gostaria de mais informações."
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 bg-[#25D366] hover:bg-[#128C7E] text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110"
