@@ -2,9 +2,11 @@
 
 ## Visão Geral do Projeto
 
-`mvituzzoserena` é uma aplicação web construída com **Next.js**, **TypeScript** e **Tailwind CSS**, com foco em modularidade e boas práticas de desenvolvimento frontend. Esse projeto serve como base para [adicionar aqui o propósito principal — por exemplo, uma landing page, dashboard interativo, interface de usuário escalável etc.].
+`mvituzzoserena` é uma aplicação web construída em parceria com a Espec Seguros para a MVituzzo com **Next.js**, **TypeScript** e **Tailwind CSS**, com foco em modularidade e boas práticas de desenvolvimento frontend. Esse projeto foi desenvolvido com a intenção de gerar leads para o empreendimento.
 
 A arquitetura é pensada para facilitar reutilização e escalabilidade, com organização de código por componentes, hooks e bibliotecas internas.
+
+Atualmente o projeto não está mais no ar sendo utilizado ativamente.
 
 ---
 
