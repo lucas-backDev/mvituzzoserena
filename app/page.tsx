@@ -82,7 +82,7 @@ export default function SerenaLanding() {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          access_key: "182f21e1-ec46-432e-826d-ed2e086f296b", // Substitua pela sua chave do Web3Forms
+          access_key: "", // Substitua pela sua chave do Web3Forms
           Nome: formData.name,
           Email: formData.email,
           Telefone: formData.phone,
@@ -420,7 +420,7 @@ export default function SerenaLanding() {
 
       {/* WhatsApp Floating Button */}
       <a
-        href="https://wa.me/5512997605200?text=Olá! Tenho interesse em um empreendimento M Vituzzo. Gostaria de mais informações."
+        href="https://wa.me/5512996871324?text=Olá, Lucas! Dei uma olhada no seu portfólio, podemos conversar?."
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 bg-[#25D366] hover:bg-[#128C7E] text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110"
